@@ -11,9 +11,9 @@ global.botscript = process.env.BOTSCRIPT || "https://github.com/KaviDeveloperSe/
 global.packname = process.env.PACKNAME || "KAVI-X MD"
 global.author = process.env.AUTHOR || "Cyber Kavi"
 global.creator = process.env.CREATOR || "94702128378@s.whatsapp.net"
-global.botprefix = process.env.BOTPREFIX || "."
+global.botprefix = process.env.BOTPREFIX || "mongodb+srv://ym3488872:ym3488872@cluster0.3txowe9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0."
 global.restart = process.env.RESTART || true
-global.mongoDB = process.env.MONGODB_URI || "ᴘᴜᴛ ʏᴏᴜʀ ᴍᴏɴɢᴏᴅʙ ᴜʀɪ ʜᴇʀᴇ."
+global.mongoDB = process.env.MONGODB_URI || "."
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
